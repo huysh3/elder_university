@@ -1,0 +1,56 @@
+@red: #ee6a64;
+
+.my--container {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  .info--content {
+    background-color: #fff;
+    text-align: center;
+    padding: 60rpx 0;
+    .avatar {
+      border: 4rpx solid #ccc;
+      background-color: @red;
+      width: 160rpx;
+      height: 160rpx;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .nickname {
+      color: #666;
+      padding-top: 40rpx;
+    }
+  }
+  .table--container {
+    margin-top: 20rpx;
+    .table--cell {
+      position: relative;
+      background-color: #fff;
+      display: flex;
+      padding: 20rpx 40rpx;
+      border-bottom: 1rpx solid #f0f0f0;
+      .left--part {
+        .table--icon {
+          width: 100rpx;
+          height: 100rpx;
+          background-color: @red;
+        }
+      }
+      .right--part {
+        display: flex;
+        justify-content: space-between;
+        .title {
+          line-height: 100rpx;
+          margin-left: 40rpx;
+          color: #666;
+        }
+        .arrow--img {
+          width: 40rpx;
+          position: absolute;
+          top: 50%;
+          transform: translate(0, -50%);
+          right: 40rpx;
+        }
+      }
+    }
+  }
+}

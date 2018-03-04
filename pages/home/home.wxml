@@ -1,0 +1,32 @@
+<view class="home--container">
+  <view class="top--part">
+    <view class="title">
+      有什么需要，试着搜索一下
+    </view>
+    <view class="title">
+      还可以点击小麦克风，进行语音搜索
+    </view>
+    <view class="search--container">
+      <input placeholder-class="search-placeholder" class="search-bar" placeholder="搜索" type="text"></input>
+    </view>
+  </view>
+  <view class="article--list">
+    <view class="list--title">
+      热门文章
+    </view>
+    <view class="list--container">
+      <view class="list--item" wx:for="{{[1, 2, 3]}}">
+        <view class="item--left-part">
+          <image class="item--img" src=""></image>
+        </view>
+        <view class="item--right-part">
+          <view class="item--title">如何使用地图APP进行导航?</view>
+          <view class="item--info">
+            <view class="watch--num">15423</view>
+            <view class="collect--num">22214</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

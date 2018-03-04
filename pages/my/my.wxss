@@ -1,0 +1,52 @@
+.my--container {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+.my--container .info--content {
+  background-color: #fff;
+  text-align: center;
+  padding: 60rpx 0;
+}
+.my--container .info--content .avatar {
+  border: 4rpx solid #ccc;
+  background-color: #ee6a64;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  display: inline-block;
+}
+.my--container .info--content .nickname {
+  color: #666;
+  padding-top: 40rpx;
+}
+.my--container .table--container {
+  margin-top: 20rpx;
+}
+.my--container .table--container .table--cell {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  padding: 20rpx 40rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+.my--container .table--container .table--cell .left--part .table--icon {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #ee6a64;
+}
+.my--container .table--container .table--cell .right--part {
+  display: flex;
+  justify-content: space-between;
+}
+.my--container .table--container .table--cell .right--part .title {
+  line-height: 100rpx;
+  margin-left: 40rpx;
+  color: #666;
+}
+.my--container .table--container .table--cell .right--part .arrow--img {
+  width: 40rpx;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 40rpx;
+}
